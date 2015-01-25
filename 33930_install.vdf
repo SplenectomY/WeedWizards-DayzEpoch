@@ -1,0 +1,57 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 OA"
+		{
+			"string"
+			{
+				"MAIN"		"%INSTALLDIR%"
+			}
+		}
+	}
+	"Run Process"
+	{
+		"DirectX"
+		{
+			"Process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"Description"		"Microsoft DirectX for Windows"
+			"Command 1"		"/silent"
+			"NoCleanUp"		"1"
+		}
+		"BattlEyeOA"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33930"
+			"Description"		"BattlEye Anti-Cheat software for ARMA 2 OA"
+			"Process 1"		"%INSTALLDIR%\\BEsetup\\setup_BattlEyeARMA2OA.exe"
+			"IgnoreExitCode"		"1"
+			"NoCleanUp"		"0"
+		}
+		"OfficialGameGroup"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33930"
+			"Description"		"Official Game Group"
+			"Process 1"		"%INSTALLDIR%\\ARMA2OA_OGG.cmd"
+			"IgnoreExitCode"		"1"
+			"NoCleanUp"		"1"
+		}
+	}
+	"ARMA 2 CD KEY"
+	{
+		"RegistryPath"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 OA\\KEY"
+	}
+	"EA OREG"
+	{
+		"string"
+		{
+			"english"
+			{
+				"URL"		"http://www.arma2.com"
+			}
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"9b4874b69516eec79d36947398be82ea757faec13965677189775f8b65375d4411838a1bdee840313ab731972e7a485def75b43bb8b3537628cbc51adf32e5dd46787675cfccd1d4ec25348b5baff543bd10b8c26589184fd4e1feddda52da55ec658f9a534285cd2686b1e9cd89a2439536bcb401c57ff886b6c9c5529373db"
+}

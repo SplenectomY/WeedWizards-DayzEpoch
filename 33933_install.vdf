@@ -1,0 +1,68 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 ACR"
+		{
+			"string"
+			{
+				"MAIN"		"%INSTALLDIR%"
+				"DATA"		"%INSTALLDIR%\\ACR"
+			}
+		}
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 OA\\Expansions\\ARMA 2 ACR"
+		{
+			"string"
+			{
+				"PATH"		"SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 ACR"
+				"LOADBEFORE"		"ARMA 2 OA"
+				"LOADAFTER"		""
+				"MODDIR"		"ACR"
+			}
+		}
+	}
+	"Run Process"
+	{
+		"OfficialGameGroup"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\65700"
+			"Description"		"Official Game Group"
+			"Process 1"		"%INSTALLDIR%\\DLCSETUP\\ACR\\ARMA2OA_ACR_OGG.cmd"
+			"Command 1"		""
+			"NoCleanUp"		"1"
+			"IgnoreExitCode"		"1"
+		}
+		"arma2silent"
+		{
+			"Description"		"Run arma2oa.exe silenty for registry entries"
+			"Process 1"		"%STEAMPATH%\\STEAMAPPS\\COMMON\\ARMA 2\\arma2.exe"
+			"AsCurrentUser"		"0"
+			"Command 1"		"-doNothing"
+			"IgnoreExitCode"		"0"
+		}
+	}
+	"Run Process on Uninstall"
+	{
+		"DataCacheRemoval"
+		{
+			"Description"		"ARMA 2: ACR datacache removal from ARMA 2: OA"
+			"Process 1"		"%INSTALLDIR%\\ACR\\datacacheremoval.exe"
+			"AsCurrentUser"		"0"
+		}
+	}
+	"ARMA 2 CD KEY"
+	{
+		"RegistryPath"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 ACR\\KEY"
+	}
+	"EA OREG"
+	{
+		"string"
+		{
+			"URL"		"http://www.arma2.com/"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"7a3295ba144ea44b0ff33a6101d9f9f3a7c1ef56b9f229e3e73de71f1feba04b89cea2607ebf679e7223ebd575a91500b8b861ddd7ebe474a64ccbc84880f11302936e5acbd43cf347ad85d1ed80b60f4335e707c2ea44a2a425e65e2be754d65baf0e6a6616c3ca7fa6eac8b830cc803669d76bf36aae9d36cad7ac643b50b1"
+}

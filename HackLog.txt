@@ -1,0 +1,10 @@
+2015-01-10 03:01:34 infiSTAR HackLog | Ludacris (76561198053094647) | Login Error!    |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-14 17:15:40 infiSTAR HackLog | Gandalf (76561198047667745) | MenuBasedHack_D64   |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-18 15:42:11 infiSTAR HackLog | Vision (76561198037837200) | BadVar: Flare   |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-19 12:06:14 infiSTAR HackLog | SCORPION (76561198137248457) | remExField TitleText: An Ikea delivery has been hijacked by bandits, take over the convoy and the building supplies are yours!   |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-20 00:18:42 infiSTAR HackLog | SCORPION (76561198137248457) | remExField TitleText: Bandits have obtained a weapon crate. Check your map for the location!   |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-20 02:26:58 infiSTAR HackLog | SCORPION (76561198137248457) | remExField TitleText: Heroes have setup a heavily fortified base, are you bandit enough to take them down?   |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-20 10:34:14 infiSTAR HackLog | SCORPION (76561198137248457) | remExField TitleText: Heroes have obtained a weapon crate. Check your map for the location!   |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-20 14:43:54 infiSTAR HackLog | Vision (76561198037837200) | BadVar: Flare   |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-20 20:44:44 infiSTAR HackLog | Vision (76561198037837200) | Login Error!    |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A
+2015-01-20 23:09:21 infiSTAR HackLog | Cody (76561198030619875) | BadVar: Flare   |Instance: 13 - ArmA2OA163125548 - 26122014IAHAT340A

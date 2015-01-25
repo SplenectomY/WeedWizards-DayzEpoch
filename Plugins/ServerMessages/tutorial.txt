@@ -1,0 +1,22 @@
+Released V2.0 15/01/2015 - Karl Griffin
+
+How To Setup & Use Server Messages
+
+        General Guidelines:
+	- Every new message starts on a new line.
+	- Time is in HH:mm:ss format, 24h time.
+        - Server Time (Not Local Time).
+	- You can use 'no-loop' for no loop of the message, or 'loop-2', for example, to loop every 2h (minutes won't work, only hours).
+	- Seperate time, message and loop type by tilde (~) character. (this means you may not use the tilde character in your message).
+
+        Automatic Restart Warning Messages Example:
+	- 14:00:00~Warning: Server Restart In 60 Minutes (3PM GMT)~no-loop
+	- 14:30:00~Warning: Server Restart In 30 Minutes (3PM GMT)~no-loop
+        - 14:45:00~Warning: Server Restart In 15 Minutes (3PM GMT)~no-loop
+        - 14:50:00~Warning: Server Restart In 10 Minutes (3PM GMT)~no-loop
+
+        * If you copy the above example to your Server Messages File, ensure you remove the - from the beginning of each line. The very first character should be a number.
+        * When editing your server messages, you can do so whilst server is running, The new messages will be read 10 minutes later as the server messages file is re-scanned every 10 minutes.
+
+Please remember for Automatic Restarts, you must first have a scheduled server restart setup via the control panel. See our knowlagebase system for further advise how to do this.
+http://www.gtxbilling.co.uk/knowledgebase.php?action=displaycat&catid=30

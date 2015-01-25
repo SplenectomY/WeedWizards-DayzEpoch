@@ -1,0 +1,4 @@
+14.01.2015 17:15:47: Gandalf (107.10.56.103:2304) 99a189c7ee0b7838ffc165ae16bdfef1 - #0 "; _dummy = [_this,"players"] execVM "\ca\ui\scripts\dedicatedServerInterface.sqf";"
+15.01.2015 17:09:57: Ludacris (71.74.108.253:2304) 7d2f7bd7204323d2f9b6100698cae3a7 - #0 "; _dummy = [_this,"players"] execVM "\ca\ui\scripts\dedicatedServerInterface.sqf";"
+21.01.2015 18:24:01: Gandalf (107.10.56.103:2304) 99a189c7ee0b7838ffc165ae16bdfef1 - #0 "; _dummy = [_this,"players"] execVM "\ca\ui\scripts\dedicatedServerInterface.sqf";"
+23.01.2015 13:24:23: SCORPION (176.250.30.62:2304) 32a2dae2f7703b96470f7ec62c2a7742 - #0 "; _dummy = [_this,"players"] execVM "\ca\ui\scripts\dedicatedServerInterface.sqf";"
